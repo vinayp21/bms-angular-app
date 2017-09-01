@@ -1,0 +1,24 @@
+<div class="header" ng-controller="home as home">
+      <div class="navbar navbar-default" role="navigation">
+          <div class="navbar-header">
+
+            <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#js-navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="#/" ng-click="home.selectMenu('')">My Show</a>
+          </div>
+
+          <div class="collapse navbar-collapse custom-header" id="js-navbar-collapse">
+
+            <ul class="nav navbar-nav">
+              <li ng-class="{ active: home.selectedLang==='English'}"><a href="void:javascript(0)" ng-click="home.selectMenu('English')">English</a></li>
+              <li ng-class="{ active: home.selectedLang==='Kannada'}"><a ng-href="void:javascript(0)" ng-click="home.selectMenu('Kannada')">Kannada</a></li>
+              <li ng-class="{ active: home.selectedLang==='Hindi'}"><a ng-href="void:javascript(0)" ng-click="home.selectMenu('Hindi')">Hindi</a></li>
+            </ul>
+          </div>
+      </div>
+    </div>

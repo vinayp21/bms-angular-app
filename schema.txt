@@ -1,0 +1,10 @@
+movie list
+-name
+-length
+-type
+-rating
+-reviews{title, review}
+theaters {name,shows}
+theater list-
+details{timings, movie}
+seatingDetails[]

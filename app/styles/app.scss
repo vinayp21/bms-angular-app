@@ -1,0 +1,107 @@
+.header{
+	position:fixed;
+	width:100%;
+	z-index:1;
+	margin-bottom: 0;
+	.navbar{
+		margin-bottom: 0;
+	}
+}
+.banner{
+	img{
+		width:100%;
+	}
+}
+.content{
+	.filter-options{
+		padding:20px;
+		background-color:#ffffff;
+	}
+	.filter-content{
+		input[type=text]{
+			padding:5px;
+			border-radius:5px;
+			width:100%;
+		}
+	}
+	padding:30px;
+	background-color:#f4f4f4;
+}
+.movie-text{
+	padding: 50px;
+    font-size: 24px;
+}
+.movie-list{
+
+	ul{
+	list-style-type: none;
+	}
+	li{
+		img{
+		  width:100%;
+		  height:150px;
+		}
+		float:left;
+		height:400px;
+	}
+	.movie-details{
+		padding:15px;
+		border: 1px solid grey;
+	}
+	.movie-name{
+		font-weight: bold;
+	}
+	.movie-language{
+		padding:10px 0 0 0;
+	}
+	.movie-genre{
+		padding:10px 0 0 0;
+		span{
+			    padding: 5px 15px;
+	    		background: grey;
+	    		border-radius: 10px;
+	    		margin-right: 10px;
+			}
+	}
+	.book-now{
+		padding:15px;
+		background-color:#c02c39;
+		color:#ffffff;
+		cursor:pointer;
+	}
+}
+.theater-details{
+	background-color:#f4f4f4;
+	padding:20px;
+	table{
+		width: 85%;
+    	text-align: center;
+    	margin: 0 auto;
+    	tr{
+    		background-color: #ffffff;
+    		border-bottom: 5px solid #f4f4f4;
+    		td{
+    			padding:40px;
+    			text-align:left;
+    			span{
+    				margin-right:50px;
+    				padding:15px;
+    				border: 1px solid #f4f4f4;
+    				border-radius: 5px;
+    				cursor:pointer;
+    				color:#06f;
+    			}
+    		}
+    	}
+	}
+}
+.booking{
+	.booking-header{
+		background-color:#1f2533;
+		height:100px;
+		position:fixed;
+		top:0;
+		width:100%;
+		color:white;
+	}
+}

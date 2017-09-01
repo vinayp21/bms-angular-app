@@ -1,0 +1,89 @@
+<div ng-include="'header.html'"></div>
+<div class="banner">
+      <img src="images/banner.jpg" alt="banner"/>
+    </div>
+    
+    <div class='container-fluid text-center movie-text'>
+      {{home.selectedLang}} Movies
+    </div>
+    <div class="content">
+    <div class="col-lg-3 filter-options">
+      <div class="filter-content">
+        <input type="text" ng-model="movieSearch" placeholder="search movie..."/>
+        <div>
+          Filter By:
+        </div>
+        <div>
+          <div>Language:</div>
+          <table>
+            <tr ng-repeat="language in home.languageFilter">
+            <td>
+               <input type="checkbox" ng-model='home.filter[language]' ng-change="home.filterApplied()" />
+            </td>
+            <td>
+              <label>{{language}}</label> 
+            </td>
+          </tr>
+        </table>
+        <div>Genre:</div>
+          <table>
+            <tr ng-repeat="genre in home.genreFilter">
+            <td>
+               <input type="checkbox" ng-model='home.genfilter[genre]' ng-change="home.genreFilterApplied(genre)" />
+            </td>
+            <td>
+              <label>{{genre}}</label> 
+            </td>
+          </tr>
+        </table>
+        </div>    
+      </div>
+    </div>
+    <div class="movie-list col-lg-9">
+      <ul ng-if="!home.showFilter">
+         <li ng-repeat="movie in home.list | filter:movieSearch" class="col-lg-4 col-md-6 col-sm-12">
+          <div>
+            <img src="{{movie.img}}"/>
+            <div class="movie-details">
+              <div class="movie-name">
+               {{movie.movieName}}
+              </div>
+              <div class="movie-language">
+                {{movie.language}}
+              </div>
+              <div class="movie-genre">
+                <span  ng-repeat="g in movie.genre">{{g}}</span>
+              </div>
+          </div>
+          <div class="book-now text-center">
+                <a href="/#!/show/{{movie.movieId}}">BOOK NOW</a>
+              </div>
+        </div>
+        </li>
+      </ul>
+      <ul ng-if="home.showFilter">
+        <li ng-repeat="movie in home.list | filter:movieSearch" ng-show="home.filter[movie.language]" class="col-lg-4 col-md-6 col-sm-12">
+          <div>
+            <img src="{{movie.img}}"/>
+            <div class="movie-details">
+              <div class="movie-name">
+               {{movie.movieName}}
+              </div>
+              <div class="movie-language">
+                {{movie.language}}
+              </div>
+              <div class="movie-genre">
+                <span  ng-repeat="g in movie.genre">{{g}}</span>
+              </div>
+          </div>
+          <div class="book-now text-center">
+                 <a href="/#!/show/{{movie.movieId}}">BOOK NOW</a>
+              </div>
+        </div>
+        </li>
+      </ul>
+      <div style="clear:both"></div>
+    </div>
+
+    <div style="clear:both"></div>
+    </div>

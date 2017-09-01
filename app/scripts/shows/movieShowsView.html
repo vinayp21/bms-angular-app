@@ -1,0 +1,30 @@
+<div ng-include="'header.html'"></div>
+<div class="banner">
+      <img src="images/banner.jpg" alt="banner"/>
+</div>
+<div class="movie-info">
+	{{show.movieInfo.movieName}}
+</div>
+    <div class="movie-genre" ng-repeat="g in show.movieInfo.genre">
+    	{{g}}
+    </div>
+     <div>
+    	{{show.movieInfo.length}}
+    </div>
+    <div>
+    	{{show.movieInfo.rating}}
+    </div>
+    <div class="theater-details">
+    	<table>
+    		<tr ng-repeat="theater in show.movieInfo.theaterDetails">
+    			<td>
+    				{{theater.theater}}
+    			</td>
+    			<td>
+    				<span ng-repeat="shows in theater.shows">
+    					<a href="void:javascript(0)" ng-click="show.bookShow(show.movieInfo.movieId,theater.theater,shows)">{{shows}}</a>
+    				</span>
+    			</td>
+    		</tr>
+    	</table>
+    </div>

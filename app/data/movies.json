@@ -1,0 +1,208 @@
+{
+	"list":[
+		{
+			"movieId":1,
+			"movieName":"Baywatch",
+			"language":"English",
+			"img":"images/6632_5634.jpg",
+			"length":"2:30hrs",
+			"rating":3,
+			"genre":["Drama"],
+			"theaterDetails":[
+				{
+					"theater":"PVR1",
+					"shows":["1:30PM", "4:00PM"]
+				},
+				{
+					"theater":"inox2",
+					"shows":["12:30PM", "7:00PM", "10:00AM"]
+				},
+				{
+					"theater":"PVR2",
+					"shows":["1:00PM"]
+				}
+			]
+		},
+		{
+			"movieId":2,
+			"movieName":"Fast N Furious",
+			"language":"English",
+			"img":"images/6632_5634.jpg",
+			"length":"2:30hrs",
+			"rating":3,
+			"genre":["Drama", "Action"],
+			"theaterDetails":[
+				{
+					"theater":"PVR1",
+					"shows":["1:00PM", "7:00PM"]
+				},
+				{
+					"theater":"inox2",
+					"shows":["11:30AM", "2:00PM"]
+				},
+				{
+					"theater":"PVR2",
+					"shows":["1:40PM", "10:00PM"]
+				}
+			]
+		},
+		{
+			"movieId":3,
+			"movieName":"Wonder Women",
+			"language":"English",
+			"img":"images/6633_5637.jpg",
+			"length":"2:30hrs",
+			"rating":3,
+			"genre":["Drama", "Action"],
+			"theaterDetails":[
+				{
+					"theater":"PVR1",
+					"shows":["3:30PM", "8:00PM", "10:30AM"]
+				},
+				{
+					"theater":"inox2",
+					"shows":["9:30PM", "9:00AM", "11:00AM"]
+				},
+				{
+					"theater":"inox2",
+					"shows":["10:00AM","7:30PM"]
+				}
+			]
+		},
+		{
+			"movieId":4,
+			"movieName":"Pataki",
+			"language":"Kannada",
+			"img":"images/pataki-et00057444-19-05-2017-05-37-30.jpg",
+			"length":"2:30hrs",
+			"rating":3,
+			"genre":["Drama", "Comedy"],
+			"theaterDetails":[
+				{
+					"theater":"PVR2",
+					"shows":["1:30PM", "10:00PM"]
+				},
+				{
+					"theater":"PVR1",
+					"shows":["9:30AM", "3:00PM", "10:00PM"]
+				},
+				{
+					"theater":"cine",
+					"shows":["10:50AM","8:30PM"]
+				},
+				{
+					"theater":"Rock",
+					"shows":["10:00AM","7:30PM"]
+				}
+			]
+		},
+		{
+			"movieId":5,
+			"movieName":"Noorondu Nenapu",
+			"language":"Kannada",
+			"img":"images/noorondu-nenapu-et00056780-03-05-2017-04-41-36.jpg",
+			"length":"2:15hrs",
+			"rating":4,
+			"genre":["Drama", "Comedy"],
+			"theaterDetails":[
+				{
+					"theater":"PVR1",
+					"shows":["4:30PM"]
+				},
+				{
+					"theater":"PVR2",
+					"shows":["10:30AM", "5:00PM"]
+				},
+				{
+					"theater":"cine",
+					"shows":["11:30AM","9:30PM"]
+				},
+				{
+					"theater":"inox1",
+					"shows":["10:00PM"]
+				}
+			]
+		},
+		{
+			"movieId":6,
+			"movieName":"Bahubali",
+			"language":"Kannada",
+			"img":"images/moviebanner.jpg",
+			"length":"2:15hrs",
+			"rating":4,
+			"genre":["Drama", "Action"],
+			"theaterDetails":[
+				{
+					"theater":"PVR1",
+					"shows":["7:30PM"]
+				},
+				{
+					"theater":"PVR2",
+					"shows":["10:00AM", "6:00PM", "7:00PM"]
+				},
+				{
+					"theater":"inox1",
+					"shows":["9:30AM","3:30PM"]
+				},
+				{
+					"theater":"inox2",
+					"shows":["10:00AM", "10:00PM"]
+				}
+			]
+		},
+		{
+			"movieId":7,
+			"movieName":"Life",
+			"language":"Kannada",
+			"img":"images/life-360-et00055011-21-03-2017-01-52-25.jpg",
+			"length":"2:00hrs",
+			"rating":3,
+			"genre":["Drama", "Action"],
+			"theaterDetails":[
+				{
+					"theater":"PVR1",
+					"shows":["1:30PM"]
+				},
+				{
+					"theater":"PVR2",
+					"shows":["9:00PM"]
+				},
+				{
+					"theater":"inox1",
+					"shows":["10:30AM","1:30PM"]
+				},
+				{
+					"theater":"Rock",
+					"shows":["10:00AM", "10:00PM"]
+				}
+			]
+		},{
+			"movieId":8,
+			"movieName":"Bahubali",
+			"language":"Hindi",
+			"img":"images/moviebanner.jpg",
+			"length":"2:00hrs",
+			"rating":4,
+			"genre":["Drama", "Action"],
+			"theaterDetails":[
+				{
+					"theater":"PVR2",
+					"shows":["1:50PM"]
+				},
+				{
+					"theater":"PVR1",
+					"shows":["9:00AM", "10:00PM"]
+				},
+				{
+					"theater":"cine",
+					"shows":["11:30AM","5:30PM"]
+				},
+				{
+					"theater":"Rock",
+					"shows":["11:00AM", "8:00PM"]
+				}
+			]
+		}		
+	]
+
+}
